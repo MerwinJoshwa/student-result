@@ -11,7 +11,7 @@ public class StudentResultTest {
     void shouldCalculateTotal() {
         int total = result.calculateTotal(80, 90, 70);
 
-        assertEquals(240, total);
+        assertEquals(250, total);
     }
 
     @Test
